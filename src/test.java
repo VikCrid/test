@@ -5,5 +5,7 @@ public class test {
             for(int c:a){
                 b=b/c;
             }
+            UnderTest test = new UnderTest("for testing");
+            test.toPrint();
     }
 }
